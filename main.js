@@ -1,6 +1,6 @@
 
 
-// Zona new products (cambiar de imagen al pasar el cursor)
+// Zona new products (cambia de imagen al pasar el cursor)
 
 document.querySelectorAll('.product-card').forEach((card) => {
     const carousel = card.querySelector('.carousel');
@@ -33,7 +33,7 @@ let usuarioIniciado = false;
 function mostrarVentanaEmergente() {
     if (!usuarioIniciado) {
       Swal.fire({
-        title: '<img src="../IMG/logo_negro.png" style="width: 100px; height: auto; display: block; margin: 0 auto;">',
+        title: '<img src="IMG/logo_negro.png" style="width: 100px; height: auto; display: block; margin: 0 auto;">',
         html:
           '<div style="margin: 0 auto; text-align: left; width: 80%;">' +
             '<label for="nombre-usuario">Nombre de Usuario:</label>' +
@@ -176,7 +176,7 @@ actualizarOpcionesInicioSesion();
   
 
 
-//Zona de carrito
+//Zona de carrito de compras
 
 document.addEventListener("DOMContentLoaded", function () {
     const productos = [
